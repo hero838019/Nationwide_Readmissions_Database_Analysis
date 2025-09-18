@@ -1,11 +1,8 @@
-/****************************/
-libname prelim "C:\Users\henry\OneDrive\Desktop\UF\Courses\2nd\2024 Spring\Prelim\Data analysis\Prelim datasets";
-libname Output "C:\Users\henry\OneDrive\Desktop\UF\Courses\2nd\2024 Spring\Prelim\Data analysis\Output";
 
 
 /****************************/
 /*Import cost-to-charge file*/
-proc import datafile = "C:\Users\henry\OneDrive\Desktop\UF\Courses\2nd\2024 Spring\Prelim\Data analysis\Prelim datasets\cc2015NRD.csv"
+proc import datafile = "pathway\cc2015NRD.csv"
 	out = prelim.cc2015nrd
 	dbms = csv
     replace;
