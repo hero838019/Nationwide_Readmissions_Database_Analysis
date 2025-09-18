@@ -2,7 +2,7 @@
 
 /****************************/
 /*Import cost-to-charge file*/
-proc import datafile = "pathway\cc2015NRD.csv"
+proc import datafile = "yourpath\cc2015NRD.csv"
 	out = prelim.cc2015nrd
 	dbms = csv
     replace;
@@ -854,7 +854,6 @@ run;
 proc freq data = readmission1;
 	table readmit*(FEMALE agegroup);
 run;
-
 
 
 /*Weighted 30-day all-cause readmission rate*/
