@@ -856,7 +856,6 @@ proc freq data = readmission1;
 run;
 
 
-
 /*Weighted 30-day all-cause readmission rate*/
 proc surveyfreq data = readmission1;
 	cluster HOSP_NRD;
