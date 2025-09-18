@@ -2,7 +2,7 @@
 
 /****************************/
 /*Import cost-to-charge file*/
-proc import datafile = "pathway\cc2015NRD.csv"
+proc import datafile = "yourpath\cc2015NRD.csv"
 	out = prelim.cc2015nrd
 	dbms = csv
     replace;
